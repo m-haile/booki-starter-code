@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -63,16 +64,33 @@ a {
 header{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    margin-top: 0;
+}
+
+header img{
+    height: 20px;
 }
 
 ul{
     display:flex;
+    gap: 70px;
     list-style-type: none;
+    height:80px;
+    align-items:stretch;
+}
+
+li{
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 
 li:hover{
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
+    margin:0;
 }
 
 /****** Hebergements And Populaires ***********/
